@@ -14,12 +14,12 @@
 
 ## 📋 Table of Contents
 
-- [Overview](#overview)
-- [Dataset](#dataset)
+- [🔍 Overview](#overview)
+- [📊 Dataset](#dataset)
 - [Data Preprocessing](#data-preprocessing)
 - [Models](#models)
 - [Results](#results)
-- [Tools Used](#technologies-used)
+- [🛠️ Tools Used](#tools-used)
 
 ---
 
@@ -100,7 +100,7 @@ All models used an 80/20 train-test split with `random_state=42`.
 
 ---
 
-## 🛠️ Tools Used
+## Tools Used
 
 - **Python** (Google Colab)
 - **Pandas** — data manipulation
