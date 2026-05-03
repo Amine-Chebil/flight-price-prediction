@@ -2,9 +2,9 @@
 
 # ✈️ Flight Price Prediction
 
-> **End-of-Year Project (PFA) — Amine Chebil, 2024**
-> 
-> A machine learning project to predict flight ticket prices.
+**End-of-Year Project (PFA) — Amine Chebil, 2024**
+ 
+**A machine learning project to predict flight ticket prices.**
 
 </div>
 
