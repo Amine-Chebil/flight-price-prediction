@@ -1,6 +1,6 @@
 <div align="center">
 
-[![Banner](assets/plane.png)]
+![Banner](assets/plane.png)
 
 # ✈️ Flight Price Prediction
 
