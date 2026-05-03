@@ -49,14 +49,17 @@ The data was collected from Nouvelair's flight schedules and covers routes betwe
 
 The raw Excel files were merged and cleaned through several steps:
 
-1. **Column removal:** — Dropped irrelevant columns (`COMPARE PRICE`, `DIFF PRICE`, `COMPARE DISPO`, `N° VOL` and `CODE`)
-2. **Filtering** — Removed rows with `DISPONIBILITE` of 0 or 1 (unavailable/single seat), and excluded Strasbourg routes (insufficient data)
-3. **Outlier removal** — Removed erroneous prices of €1 and €2
-4. **Handling duplicates** — Kept the last occurrence of duplicate rows
-5. **Data transformation:**
+1. **Data cleaning:** 
+   - Dropped irrelevant columns (`COMPARE PRICE`, `DIFF PRICE`, `COMPARE DISPO`, `N° VOL` and `CODE`)
+   - Removed rows with `DISPONIBILITE` of 0 or 1 (unavailable/single seat), and excluded Strasbourg routes (insufficient data)
+2. **Outlier removal:** 
+   - Removed erroneous prices of €1 and €2
+3. **Handling duplicates:** 
+   - Kept the last occurrence of duplicate rows
+4. **Data transformation:**
    - Datetime conversion on columns `DATE DEPART`, `TIME DEPART` and `TIME ARRIVEE` to standardize their format into datetime objects
    - Changed the data type of the CLASS column to string to prepare it for encoding
-6. **Feature engineering:**
+5. **Feature engineering:**
    - Extracted `DAY`, `depart_hour`, `depart_minute`, `arrival_hour`, `arrival_minute` from datetime columns
    - Computed `dur_min` (flight duration in minutes)
    - Applied **One-Hot Encoding** to departure and arrival cities
@@ -77,7 +80,7 @@ All models used an 80/20 train-test split with `random_state=42`.
 
 ---
 
-## 🤖 Evaluation Metrics
+## 📝 Evaluation Metrics
 
 In order to evaluate our models, we decided to use 3 metrics, the R2 score, which measures how well the models explain the variability in flight prices, the MAE, which indicates how far the predictions are from the real values on average And RMSE, which provides a sense of the spread of  errors, with larger ones having bigger impact.
 
