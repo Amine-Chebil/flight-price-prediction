@@ -87,6 +87,10 @@ All models used an 80/20 train-test split with `random_state=42`.
 
 **XGBoost** achieved the best performance with an R² of **0.9969**, a Mean Absolute Error of just **€4.19**, and an RMSE of **€7.50**.
 
+The "Predicted vs Actual" graph shows the model’s remarkable accuracy, with the blue predicted points closely clustered around the red diagonal line representing the most perfect predictions.
+
+![Banner](assets/result_xgb.png)
+
 ---
 
 ## 🛠️ Tools Used
@@ -106,4 +110,4 @@ This project was developed as an academic end-of-year project. Feel free to use 
 
 ---
 
-*Made with ❤️ by Amine Chebil — 2024*
+*Made by Amine Chebil — 2024*
