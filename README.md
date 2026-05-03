@@ -77,6 +77,14 @@ All models used an 80/20 train-test split with `random_state=42`.
 
 ---
 
+## 🤖 Evaluation Metrics
+
+In order to evaluate our models, we decided to use 3 metrics, the R2 score, which measures how well the models explain the variability in flight prices, the MAE, which indicates how far the predictions are from the real values on average And RMSE, which provides a sense of the spread of  errors, with larger ones having bigger impact.
+
+![Banner](assets/evaluation_metrics.png)
+
+---
+
 ## 📈 Results
 
 | Model | R² Score | MAE | RMSE |
