@@ -12,17 +12,6 @@
 
 ---
 
-## 📋 Table of Contents
-
-- [🔍 Overview](#overview)
-- [📊 Dataset](#dataset)
-- [Data Preprocessing](#data-preprocessing)
-- [Models](#models)
-- [Results](#results)
-- [🛠️ Tools Used](#tools-used)
-
----
-
 ## 🔍 Overview
 
 This project builds a flight price prediction system to enhance package offers for a travel agency by accurately predicting prices. We plan to achieve this by using machine learning models on a cleaned and prepared dataset.
@@ -100,7 +89,7 @@ All models used an 80/20 train-test split with `random_state=42`.
 
 ---
 
-## Tools Used
+## 🛠️ Tools Used
 
 - **Python** (Google Colab)
 - **Pandas** — data manipulation
