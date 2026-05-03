@@ -1,5 +1,7 @@
 <div align="center">
 
+[![Banner](assets/plane.png)]
+
 # ✈️ Flight Price Prediction
 
 **End-of-Year Project (PFA) — Amine Chebil, 2024**
